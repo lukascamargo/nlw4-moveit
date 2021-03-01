@@ -1,0 +1,18 @@
+.container {
+    height: 100vh;
+    max-width: 992px;
+    margin: 0 auto;
+    padding: 2.5rem 2rem;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.container section {
+    flex: 1;
+
+    display: grid; /* Isso faz com que a section seja em Grid */
+    grid-template-columns: 1fr 1fr; /* Que tenha 2 colunas */
+    gap: 6.25rem; /* Espaçamento de 6.25rem (que vai diminuindo conforme tamanho da tela) entre as colunas */
+    align-content: center; /* o conteudo todo da section centralizado */
+}
